@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/box_border"
+        android:gravity="center"
+        android:text="Hasil Analisis"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="ANALISIS NAMA:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/box_border"
+        android:lineSpacingExtra="4dp"
+        android:text="Nama: -\nJumlah abjad: -\nBilangan vokal: -\nAbjad berulang: -"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="ANALISIS TARIKH LAHIR:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTarikh"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/box_border"
+        android:lineSpacingExtra="4dp"
+        android:text="Umur anda: -\nDilahirkan pada: -"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI" />
+
+</LinearLayout>
